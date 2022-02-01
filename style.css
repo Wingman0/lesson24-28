@@ -1,0 +1,689 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.peregorodka {
+    width: 2px;
+    height: 40px; 
+    background-color: rgb(85, 78, 78);
+}
+.languages {
+    height: 80px;
+    flex-direction: column;
+}
+.language {
+    margin: -10px;
+    text-align: center;
+    width: 30px;
+    height: 25px;
+}
+.language > p {
+    margin: -0px;
+}
+.green {
+    background-color: seagreen;
+}
+.red {
+    background-color: red;
+}
+.tel-v {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+.block-search {
+    width: 120px;
+    height: 40px;
+    background-color: rgba(169, 169, 169, 0.987);
+}
+.block-search-square {
+    height: 40px;
+    width: 40px;
+}
+.search-1 {
+    display: flex; 
+}
+.search {
+    width: 400px;
+    justify-content: space-around;
+}
+.dropdown {
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+ul {
+    position: relative;
+}
+ul li {
+    width: 125px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.header-menu-dropdown li {
+    position: relative;
+    left: -28px;
+    top: 28px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+}
+.header-menu-dropdown {
+    position: absolute;
+    display: none;
+}
+ul li:hover > ul {
+    display: block;
+}
+.full-stack {
+    display: flex;
+    align-items: center;
+}
+.full-stack-stack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.offer {
+    width: 100%;
+    height: 490px;
+    background: url(./img/hotel-1.png) center center no-repeat;
+    background-size: cover;
+}
+.three-hundred-bucks {
+    width: 40%;
+    text-align: center;
+    border: azure;
+    color: azure;
+    border: 2px solid azure;
+}
+.three-hundred-bucks > p {
+    margin: 0 ;
+}
+.offer-inner {
+    position: relative;
+    left: 180px;
+    width: 400px;
+    float: left;
+}
+.azure {
+    color: azure;
+}
+.faq {
+    margin: 35px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    opacity: 0.5;
+    background-color: gray;
+}
+.kruzhochki {
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-info {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.header-info-left {
+    margin-left: 150px;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.knopka{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #BDBDBD;
+}
+.another {
+    color: #BDBDBD;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+}
+.knopki-header {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-info-right{
+    width: 850px;
+    height: 100%;
+    margin: 25px;
+}
+.da {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.podhod {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 0;
+}
+.shpala {
+    width: 240px;
+    background-color: black;
+    height: 1px;
+    margin: 15px;
+}
+.spisok-hotel-super {
+    width: 180px;
+    height: 40px;
+    border: 1px solid black;
+}
+.safe {
+    width: 100%;
+    height: 80px;
+}
+.main-hotels {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hotels-kvadratiky {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hotel-kvad {
+    width: 500px;
+    height: 450px;
+    flex-direction: column;
+}
+.kvad-1 {
+    background: url(./img/Отели/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png) center center no-repeat;
+    background-size: cover;
+}
+.kvad-2 {
+    background: url(./img/Отели/276398231\ 2.png) center center no-repeat;
+    background-size: cover;
+}
+.kvad-3 {
+    background: url(./img/Отели/c41c4172\ 1.png) center center no-repeat;
+    background-size: cover;
+}
+.zvezdochki {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotel-kvad > h2 {
+    color: white;
+    width: 150px;
+}
+.negr {
+    width: 200px;
+    margin: 0 0;
+    background-color: rgba(4, 4, 4, 0.123);
+    position: relative;
+    left: -150px;
+    top: -99px;
+    color: white;
+}
+.hotel-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.photocards {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-photo-1 {
+    width: 350px;
+    height: 250px;
+    background: url(./img/Отели/mandarina\ 2.png) center center no-repeat;
+}
+.card-photo-2 {
+    width: 350px;
+    height: 250px;
+    background: url(./img/Отели/276398231\ 2.png) center center no-repeat;
+}
+.card-photo-3 {
+    width: 350px;
+    height: 250px;
+    background: url(./img/Отели/1491655\ 1.png) center center no-repeat;
+}
+.card {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.float {
+    width: 100%;
+    height: 160px;
+    float: left;
+}
+.float > h2 {
+    margin: 0 0;
+}
+.prices {
+    width: 100%;
+    height: 90px;
+}
+.prices-left {
+    width: 60%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.prices-right {
+    width: 60%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.prices-right > p {
+    font-size: 20px;
+    margin: 0 0;
+}
+.prices-left > p {
+    margin: 0 0;
+    opacity: 0.5;
+}
+.prices-left > h4 {
+    font-size: 25px;
+    color: red;
+    margin: 0 0;
+}
+.negr-info {
+    margin: 0 0;
+    background-color: rgba(4, 4, 4, 0.671);
+    position: relative;
+    color: white;
+    width: 175px;
+}
+.main-important {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.main-important-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+}
+.main-important-top > h1 {
+    font-size: 55px;
+}
+.news-kvads {
+    width: 1110px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-kvad {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+}
+.news-photo {
+    width: 250px;
+    height: 250px;
+}
+.photo-1{
+    background: url(./img/Отели/news_20170411_091637_1491891397\ 1.png);
+}
+.photo-2{
+    background: url(./img/Отели/p184j411emam71qc8tc16kjl125\ 1.png);
+}
+.photo-3{
+    background: url(./img/Отели/1491655\ 1.png);
+}
+.photo-4{
+    background: url(./img/Отели/montenegro-hero\ 2.png);
+}
+.main-important-center {
+    width: 100%;
+}
+.news-text {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.calendar {
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.news-text > a {
+    color: red;
+    margin-top: 30px;
+}
+.calendar > p {
+    margin: 0 0;
+}
+.blog {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.obschak {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.strelki {
+    width: 12.5%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-hotels {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    float: left;  
+}
+.blog-image {
+    width: 100%;
+    height: 50%;
+    background: url(./img/Отели/Strani_Sri-Lanka_5-min\ 1.png) center center no-repeat;
+}
+.texttt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.texxx {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.texxx > p {
+    margin: 0 0;
+}
+.texxx > p {
+    opacity: 0.75;
+}
+.red-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.red-1 > p {
+    color: red;
+}
+.red-1 > i {
+    color: red;
+}
+form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.form-form {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-form-2 {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-text {
+    width: 40%;
+    height: 50px;
+    float: left;
+}
+.text-text > p {
+    font-size: 20px;
+    margin: 0 0;
+}
+.why {
+    width: 100%;
+    height: 1000px;
+    background-color: #F8F8F8;
+    background: url(./Frame.png) center center no-repeat;
+}
+.why-inner {
+    width: 60%;
+    height: 85%;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+}
+.why-inner > h1 {
+    font-size: 40px;
+}
+.why-list {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.email-form {
+    width: 40%;
+}
+.list-part {
+    width: 48%;
+    height: 22%;
+    display: flex;
+    background-color: white;
+}
+.ptext {
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ptext > p {
+    font-size: 20px;
+}
+.list-part:hover {
+    border-left: 3px solid rgb(248, 60, 60);
+}
+.checkbox {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.list-part:hover > .checkbox {
+    background-color: rgb(248, 60, 60);
+}
+.list-part:hover > .checkbox > i {
+    color: white;
+}
+.you {
+    width: 100%;
+    height: 450px;
+    background: url(./Rovinj-15\ 1.png) center center no-repeat;
+}
+.you-inner {
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.you-inner > h1 {
+    font-size: 40px;
+}
+.you-inner > p {
+    font-size: 17px;
+}
+.more-button {
+   width: 15%;
+   height: 12.5%; 
+   background: #FFFFFF;
+}
+.more-button > p {
+    opacity: 0.7;
+}
+footer {
+    width: 100%;
+    height: 600px;
+    background: url(./img/gora-footer.png) center center no-repeat;
+}
+.footer-inner {
+    width: 80%;
+    height: 80%;
+}
+.valanta-logo-footer {
+    width: 15%;
+    height: 100%;
+    background: url(./img/logos/valanta-logo-2-removebg-preview.png) center center no-repeat;
+}
+.footer-top {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-footer {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-footer {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.opacity-footer {
+    opacity: 0.75;
+}
+
+@media screen and (max-width:1260px) {  
+    .icons{
+        display: none;
+    }
+    .telephones-header {
+        display: none;
+    }
+    .per-tel {
+        display: none;
+    }
+    .dropdown > i {
+        display: none;
+    }
+    .header-info-left > h1{
+        font-size: 24px;
+    }
+    .header-info-left > p {
+        margin: 0 0;
+    }
+    .knopka {
+        width: 120px;
+    }
+    .knopki-header {
+        width: 250px;
+    }
+    .hotels-kvadratiky {
+        display: flex;
+        flex-direction: column;
+    }
+    .negr {
+        top: 0px;
+        left: -150px;
+    }
+    .photocards {
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+    }
+    .news-kvads {
+        display: flex;
+        flex-direction: column;
+        height: 1750px;
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+        height: 2100px;
+    }
+    .obschak {
+        display: flex;
+        flex-direction: column;
+        height: 2100px;
+    }
+    form {
+        width: 100%;
+        height: 300px;
+    }
+    .strelki {
+        display: none;
+    }
+    .ptext > p {
+        font-size: 15px;
+    }
+}
